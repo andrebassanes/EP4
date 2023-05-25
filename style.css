@@ -1,0 +1,34 @@
+.img{
+    height: 20px;
+   }
+   
+   .body{
+       display: grid;
+       grid-template-areas: 
+       "cabeca cabeca cabeca cabeca"
+       "lados princi princi princi"
+       "rodape rodape rodape rodape";
+       grid-template-columns: auto auto auto auto;
+       grid-template-rows: auto auto auto auto;
+   }
+   #grad_c{
+    grid-area: cabeca;
+    background-color: blue;
+    text-align: center;
+   }
+   #grad_l{
+       grid-area: lados;
+       background-color: green;
+       text-align: center;
+   }
+   #grad_p{
+       grid-area: princi;
+       background-color: orange;
+       text-align: center;
+   }
+   #grad_r{
+       grid-area: rodape;
+       background-color: yellow;
+       text-align: center;
+   }
+   
